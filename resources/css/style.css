@@ -41,6 +41,8 @@ header {
 main {
   position:relative;
   top:80px;
+  margin-bottom: 90px;
+  z-index:1;
 }
 
    /* Mission Section */
@@ -64,11 +66,102 @@ main {
   text-align:center;
 }
 
+    /*Featured Tea Section*/
 #FeaturedTea {
+  text-align:center;
+  margi-bottom:50px;
+}
+
+.featuredtea {
   display:flex;
-  flex-direction:row;
-  align-items: center;
-  justify-content:space-between;
+  flow-direction:row;
+  align-items:center;
+  text-align:center;
+  justify-content: space-around;
   width:1000px;
   flex-wrap:wrap;
+  line-height:10px;
+  margin:0 auto;
+}
+
+}
+.teaofmonth {
+  text-align:center;
+  width:1000px;
+  margin:0 auto;
+}
+
+.MyrtleAveTea {
+  margin:0 auto;
+  width:300px;
+}
+
+.BizarreTea {
+  margin:0 auto;
+  width:300px;
+}
+  /* Location*/
+
+#Locations {
+  height:500px;
+  width:1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position:center;
+  background-size:1200px;
+  margin:0 auto;
+}
+
+.locationheader {
+  padding-top:20px;
+  text-align:center;
+  width:1200px;
+  margin:0 auto;
+  margin-bottom:15px;
+}
+
+.storelocations {
+  text-align:center;
+  width:1200px;
+  margin:0 auto;
+}
+
+.Downtown {
+  width:300px;
+  background-color:black;
+  display:inline-block;
+  margin-right:40px;
+  line-height: 15px;
+  text-align: center;
+  opacity:1;
+}
+
+.EastBayside {
+  width:300px;
+  display:inline-block;
+  margin-right:40px;
+  background-color:black;
+  line-height: 15px;
+  text-align:center;
+  opacity:1;
+}
+
+.Oakdale {
+  width:300px;
+  display:inline-block;
+  margin:0 auto;
+  background-color:black;
+  line-height:15px;
+  text-align:center;
+  opacity:1;
+}
+
+    /* Footer */
+
+.contact {
+  height: 200px;
+  text-align:center;
+}
+
+.copyright {
+  font-size:20px;
 }
