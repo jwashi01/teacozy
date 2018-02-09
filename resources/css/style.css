@@ -58,7 +58,6 @@ main {
   background-position:center;
   background-size:1200px;
   margin:0 auto;
-
 }
 
 .mission {
@@ -67,10 +66,16 @@ main {
   text-align:center;
 }
 
+
+
     /*Featured Tea Section*/
+
 #FeaturedTea {
   text-align:center;
-  margi-bottom:50px;
+  width:1000px;
+  margin:0 auto;
+  padding-top:50px;
+  padding-bottom:50px;
 }
 
 .featuredtea {
@@ -101,7 +106,8 @@ main {
   margin:0 auto;
   width:300px;
 }
-  /* Location*/
+
+  /* Location Section*/
 
 #Locations {
   height:500px;
@@ -161,8 +167,10 @@ main {
 .contact {
   height: 200px;
   text-align:center;
+  color:seashell;
 }
 
 .copyright {
   font-size:20px;
+  padding-left:20px;
 }
