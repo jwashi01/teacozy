@@ -36,6 +36,8 @@ header {
   margin:10px;
 }
 
+
+
   /* Main Section - Body of Page*/
 /* Main Section contains Mission Section & Featured Tea Section */
 
@@ -87,27 +89,32 @@ main {
   width:1000px;
   flex-wrap:wrap;
   line-height:10px;
-  margin:0 auto;
 }
 
-}
+
 .teaofmonth {
   text-align:center;
   width:1000px;
   margin:0 auto;
 }
 
+
 .MyrtleAveTea {
-  margin:0 auto;
+  display:inline-block;
+  margin-right:30px;
   width:300px;
 }
 
 .BizarreTea {
-  margin:0 auto;
+  display:inline-block;
+  margin:0;
+  padding:0;
   width:300px;
 }
 
+
   /* Location Section*/
+
 
 #Locations {
   height:500px;
@@ -174,3 +181,7 @@ main {
   font-size:20px;
   padding-left:20px;
 }
+
+/*.seashell {
+  color:seashell;
+}*/
