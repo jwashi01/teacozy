@@ -15,6 +15,7 @@ html {
 header {
   display:flex;
   position:fixed;
+  top:0;
   background-color:black;
   flex-direction: row;
   align-items:center;
@@ -43,7 +44,7 @@ header {
 
 main {
   position:relative;
-  top:80px;
+  top:60px;
   margin-bottom: 90px;
   z-index:1;
 }
