@@ -1,1 +1,10 @@
-Tea Cozy sample website. Tea Cozy a company that sells organic tea. Project was an assignment for CodeAcademy course - Building websites from strach
+Tea Cozy website. 
+
+was a class project at codecademy.
+
+
+
+Website was created using HTML and CSS.
+
+
+
